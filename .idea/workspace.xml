@@ -37,6 +37,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RunManager">
+    <configuration name="TC1_LoginCTQ.loginCTQAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JenkinsProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TC1_LoginCTQ" />
+      <option name="METHOD_NAME" value="loginCTQAdmin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC1_LoginCTQ.loginCTQAdmin" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -51,9 +70,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="203" y="-780" key="Vcs.Push.Dialog.v2" timestamp="1582897271159">
+    <state x="203" y="-780" key="Vcs.Push.Dialog.v2" timestamp="1582897953432">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="203" y="-780" key="Vcs.Push.Dialog.v2/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582897271159" />
+    <state x="203" y="-780" key="Vcs.Push.Dialog.v2/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582897953432" />
   </component>
 </project>
