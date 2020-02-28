@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90f7c118-c6e5-4aec-83f2-de4ceb889dec" name="Default Changelist" comment="" />
+    <list default="true" id="90f7c118-c6e5-4aec-83f2-de4ceb889dec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,9 +51,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="203" y="-780" key="Vcs.Push.Dialog.v2" timestamp="1582896847276">
+    <state x="203" y="-780" key="Vcs.Push.Dialog.v2" timestamp="1582897271159">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="203" y="-780" key="Vcs.Push.Dialog.v2/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582896847276" />
+    <state x="203" y="-780" key="Vcs.Push.Dialog.v2/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582897271159" />
   </component>
 </project>
