@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90f7c118-c6e5-4aec-83f2-de4ceb889dec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CTQ/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TC1_LoginCTQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="90f7c118-c6e5-4aec-83f2-de4ceb889dec" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,5 +47,11 @@
       <updated>1582894005333</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="203" y="-780" key="Vcs.Push.Dialog.v2" timestamp="1582896847276">
+      <screen x="-243" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="203" y="-780" key="Vcs.Push.Dialog.v2/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582896847276" />
   </component>
 </project>

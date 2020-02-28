@@ -26,4 +26,9 @@ public class TC1_LoginCTQ {
     public void loginCTQAdmin(){
         Assert.assertEquals(driver.getCurrentUrl(),"https://staging.ctq.cloud/ctq/requests","The login as CTQ Admin was not succesful");
     }
+
+    @Test(description = "Fail test", dependsOnMethods = "loginCTQAdmin")
+    public void Fail(){
+        Assert.assertEquals(1,2,"unu nu-i egal cu doi no csf");
+    }
 }
