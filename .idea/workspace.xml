@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f7c118-c6e5-4aec-83f2-de4ceb889dec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batchfile.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/nojerazvan/Desktop/JenkinsProject/testng.xml">
     <configuration name="TC1_LoginCTQ.loginCTQAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JenkinsProject" />
       <useClassPathOnly />
@@ -61,13 +61,40 @@
       <properties />
       <listeners>
         <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.XMLReporter" />
       </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/nojerazvan/Desktop/JenkinsProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JenkinsProject" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.XMLReporter" />
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.TC1_LoginCTQ.loginCTQAdmin" />
+      <item itemvalue="TestNG./Users/nojerazvan/Desktop/JenkinsProject/testng.xml" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/nojerazvan/Desktop/JenkinsProject/testng.xml" />
         <item itemvalue="TestNG.TC1_LoginCTQ.loginCTQAdmin" />
       </list>
     </recent_temporary>
@@ -89,33 +116,37 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="67" y="-858" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582901230947">
+    <state x="67" y="-858" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582902789055">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="67" y="-858" key="#com.intellij.execution.impl.EditConfigurationsDialog/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582901230947" />
-    <state x="340" y="-729" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582901228578">
+    <state x="67" y="-858" key="#com.intellij.execution.impl.EditConfigurationsDialog/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582902789055" />
+    <state x="340" y="-729" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582902786947">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="340" y="-729" key="#com.intellij.ide.util.TreeClassChooserDialog/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582901228578" />
-    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1582899377378">
+    <state x="340" y="-729" key="#com.intellij.ide.util.TreeClassChooserDialog/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582902786947" />
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1582903149226">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1358" height="202" key="GridCell.Tab.0.bottom/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582899377378" />
-    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1582899377376">
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582903149226" />
+    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1582903149224">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1358" height="202" key="GridCell.Tab.0.center/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582899377376" />
-    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1582899377375">
+    <state width="1358" height="202" key="GridCell.Tab.0.center/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582903149224" />
+    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1582903149223">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1358" height="202" key="GridCell.Tab.0.left/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582899377375" />
-    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1582899377377">
+    <state width="1358" height="202" key="GridCell.Tab.0.left/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582903149223" />
+    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1582903149225">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1358" height="202" key="GridCell.Tab.0.right/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582899377377" />
-    <state x="203" y="-780" key="Vcs.Push.Dialog.v2" timestamp="1582899891382">
+    <state width="1358" height="202" key="GridCell.Tab.0.right/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582903149225" />
+    <state x="203" y="-780" key="Vcs.Push.Dialog.v2" timestamp="1582901265606">
       <screen x="-243" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="203" y="-780" key="Vcs.Push.Dialog.v2/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582899891382" />
+    <state x="203" y="-780" key="Vcs.Push.Dialog.v2/-243.-1057.1920.1057/0.23.1440.832@-243.-1057.1920.1057" timestamp="1582901265606" />
+    <state x="419" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1583228407301">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="419" y="276" key="com.intellij.ide.util.TipDialog/-243.-1057.1920.1057/0.23.1440.832@0.23.1440.832" timestamp="1583228407301" />
   </component>
 </project>
