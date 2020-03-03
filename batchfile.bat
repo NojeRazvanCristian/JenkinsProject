@@ -1,5 +1,5 @@
-set projectLocation=Apple\Users\nojerazvan\Desktop\JenkinsProject
-cd Apple\Users\nojerazvan\Desktop\JenkinsProject
-set classpath=‎Apple\Users\nojerazvan\Desktop\JenkinsProject\bin;Apple\Users\nojerazvan\Desktop\JenkinsProject\lib\*
-java org.testng.TestNG Apple\Users\nojerazvan\Desktop\JenkinsProject\testng.xml
+set projectLocation=Users\nojerazvan\Desktop\JenkinsProject
+cd Users\nojerazvan\Desktop\JenkinsProject
+set classpath=‎Users\nojerazvan\Desktop\JenkinsProject\src\test\java\
+java org.testng.TestNG Users\nojerazvan\Desktop\JenkinsProject\testng.xml
 pause
