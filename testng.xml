@@ -3,6 +3,7 @@
     <test verbose="2" preserve-order="true" name="/Users/nojerazvan/Desktop/JenkinsProject">
         <classes>
             <class name="TC1_LoginCTQ"></class>
+            <class name="TC2_FailTestPentruDemo"></class>
         </classes>
 
 

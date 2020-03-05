@@ -2,23 +2,21 @@ import CTQ.Login;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class TC1_LoginCTQ {
 
     WebDriver driver = new ChromeDriver();
     Login login = new Login(driver);
 
-    @BeforeClass
-    public void beforeClass(){
+    @BeforeSuite
+    public void beforeSuite(){
         Login login = new Login(driver);
         driver.get("https://staging.ctq.cloud/users/sign_in");
         login.loginCTQAdmin();
     }
-    @AfterClass
-    public void afterClass(){
+    @AfterSuite
+    public void afterSuite(){
         driver.quit();
     }
 
