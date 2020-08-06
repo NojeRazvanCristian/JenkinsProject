@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="247" started-at="2020-03-05T12:23:23Z" finished-at="2020-03-05T12:23:24Z">
+  <suite name="All Test Suite" duration-ms="206" started-at="2020-05-26T11:21:27Z" finished-at="2020-05-26T11:21:27Z">
     <groups>
     </groups>
-    <test name="/Users/nojerazvan/Desktop/JenkinsProject" duration-ms="247" started-at="2020-03-05T12:23:23Z" finished-at="2020-03-05T12:23:24Z">
+    <test name="/Users/nojerazvan/Desktop/JenkinsProject" duration-ms="206" started-at="2020-05-26T11:21:27Z" finished-at="2020-05-26T11:21:27Z">
       <class name="TC2_FailTestPentruDemo">
-        <test-method status="FAIL" signature="failTestCase()[pri:0, instance:TC2_FailTestPentruDemo@17a7f733]" name="failTestCase" duration-ms="3" started-at="2020-03-05T14:23:23Z" description="Fail test case pentru demo DAA?" finished-at="2020-03-05T14:23:24Z">
+        <test-method status="FAIL" signature="failTestCase()[pri:0, instance:TC2_FailTestPentruDemo@57250572]" name="failTestCase" duration-ms="13" started-at="2020-05-26T07:21:27Z" description="Fail test case pentru demo DAA?" finished-at="2020-05-26T07:21:27Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[unu nu ii egal cu doi asa ca o dat fail! mersi pa expected [2] but found [1]]]>
@@ -50,15 +50,15 @@
         </test-method> <!-- failTestCase -->
       </class> <!-- TC2_FailTestPentruDemo -->
       <class name="TC1_LoginCTQ">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TC1_LoginCTQ@7c83dc97]" name="beforeSuite" is-config="true" duration-ms="7171" started-at="2020-03-05T14:23:16Z" finished-at="2020-03-05T14:23:23Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TC1_LoginCTQ@3e96bacf]" name="beforeSuite" is-config="true" duration-ms="11449" started-at="2020-05-26T07:21:16Z" finished-at="2020-05-26T07:21:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="loginCTQAdmin()[pri:0, instance:TC1_LoginCTQ@7c83dc97]" name="loginCTQAdmin" duration-ms="201" started-at="2020-03-05T14:23:23Z" description="Test if login as CTQ admin was succesful" finished-at="2020-03-05T14:23:23Z">
+        <test-method status="PASS" signature="loginCTQAdmin()[pri:0, instance:TC1_LoginCTQ@3e96bacf]" name="loginCTQAdmin" duration-ms="96" started-at="2020-05-26T07:21:27Z" description="Test if login as CTQ admin was succesful" finished-at="2020-05-26T07:21:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCTQAdmin -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TC1_LoginCTQ@7c83dc97]" name="afterSuite" is-config="true" duration-ms="186" started-at="2020-03-05T14:23:24Z" finished-at="2020-03-05T14:23:24Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TC1_LoginCTQ@3e96bacf]" name="afterSuite" is-config="true" duration-ms="235" started-at="2020-05-26T07:21:27Z" finished-at="2020-05-26T07:21:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

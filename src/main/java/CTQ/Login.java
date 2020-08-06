@@ -26,8 +26,8 @@ public class Login {
     }
 
     public void loginCTQAdmin(){
-        input_login.sendKeys("admin@ctq.com");
-        input_password.sendKeys("909090");
+        input_login.sendKeys("razvan.noje+ctq@wolfpack-digital.com");
+        input_password.sendKeys("Ctq123!@#");
         button_login.click();
     }
 }
